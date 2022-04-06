@@ -1,0 +1,41 @@
+BoxLayout:
+    orientation: "vertical"
+
+    MDBottomNavigation:
+        MDBottomNavigationItem:
+            name: "screen1"
+            text: "Сметки"
+            icon: "blender"
+            MDTextField:
+                id:kub1
+                size_hint_y: None
+                size_hint : 0.25,None
+                pos_hint : {'x' : 0,'top': 1}
+                hint_text: "Кубчета 10х10: "
+                text: ""
+                multiline: False
+                input_type: "number"
+            MDTextField:
+                id:kub2
+                size_hint : 0.25,None
+                hint_text: "Кубчета 15х15: "
+                pos_hint : {'x' : 0.25,'top': 1}
+                text: ""
+                multiline: False
+                input_type: "number"
+            MDIconButton:
+                text:""
+                icon: "cube"
+                pos_hint : {'x' : 0.5,'top': 1}
+                size_hint : 0.25,None
+
+        MDBottomNavigationItem:
+            name: "screen2"
+            text: "Резултати"
+            icon: "cube"
+            MDLabel:
+                text: "234"
+                halign: "center"
+            MDLabel:
+                text: "234"
+                halign: "left"

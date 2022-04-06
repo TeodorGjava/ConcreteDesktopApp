@@ -1,0 +1,35 @@
+[INFO   ] Logger: Record log in C:\Users\User\.kivy\logs\kivy_21-07-26_92.txt
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\User\AppData\Local\Temp\_MEI88162\kivy\__init__.pyc"
+[INFO   ] Python: v3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\User\AppData\Local\Programs\Python\Python38\New folder\dist\Zames.exe"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: GLEW initialization succeeded
+[INFO   ] GL: Backend used <glew>
+[INFO   ] GL: OpenGL version <b'4.6.0 NVIDIA 391.33'>
+[INFO   ] GL: OpenGL vendor <b'NVIDIA Corporation'>
+[INFO   ] GL: OpenGL renderer <b'Quadro K2200/PCIe/SSE2'>
+[INFO   ] GL: OpenGL parsed version: 4, 6
+[INFO   ] GL: Shading version <b'4.60 NVIDIA'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[WARNING] Image: Unable to load image <C:\Users\User\AppData\Local\Temp\_MEI88162\kivy_install\data\glsl\default.png>
+[CRITICAL] Window: Unable to find any valuable Window provider. Please enable debug logging (e.g. add -d if running from the command line, or change the log level in the config) and re-run your app to identify potential causes
+sdl2 - Exception: SDL2: Unable to load image
+  File "kivy\core\__init__.py", line 70, in core_select_lib
+  File "kivy\core\window\window_sdl2.py", line 152, in __init__
+  File "kivy\core\window\__init__.py", line 982, in __init__
+  File "kivy\core\window\window_sdl2.py", line 311, in create_window
+  File "kivy\core\window\__init__.py", line 1268, in create_window
+  File "kivy\graphics\instructions.pyx", line 783, in kivy.graphics.instructions.RenderContext.__init__
+  File "kivy\core\image\__init__.py", line 561, in __init__
+  File "kivy\core\image\__init__.py", line 754, in _set_filename
+  File "kivy\core\image\__init__.py", line 460, in load
+  File "kivy\core\image\__init__.py", line 223, in __init__
+  File "kivy\core\image\img_sdl2.py", line 47, in load
+
+[CRITICAL] App: Unable to get a Window, abort.

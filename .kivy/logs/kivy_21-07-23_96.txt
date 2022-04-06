@@ -1,0 +1,10 @@
+[INFO   ] Logger: Record log in C:\Users\User\.kivy\logs\kivy_21-07-23_96.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "c:\users\user\pycharmprojects\pythonproject1\venv\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "c:\users\user\pycharmprojects\pythonproject1\venv\scripts\python.exe"
+[INFO   ] Factory: 186 symbols loaded
+[WARNING] Could not find GStreamer plugins. Possible solution: set GST_PLUGIN_PATH

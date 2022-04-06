@@ -1,0 +1,21 @@
+[INFO   ] Logger: Record log in C:\Users\User\.kivy\logs\kivy_21-07-26_3.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\User\PycharmProjects\pythonProject1\venv\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\User\PycharmProjects\pythonProject1\venv\Scripts\python.exe"
+[WARNING] stderr: Process Skeleton Generator Worker:
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\multiprocessing\process.py", line 315, in _bootstrap
+[WARNING] stderr:     self.run()
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\multiprocessing\process.py", line 108, in run
+[WARNING] stderr:     self._target(*self._args, **self._kwargs)
+[WARNING] stderr:   File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\plugins\python-ce\helpers\generator3\util_methods.py", line 872, in _multiprocessing_wrapper
+[WARNING] stderr:     data.result_conn.send(func(*args, **kwargs))
+[WARNING] stderr:   File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\plugins\python-ce\helpers\generator3\core.py", line 617, in generate_skeleton
+[WARNING] stderr:     __import__(name)  # sys.modules will fill up with what we want
+[WARNING] stderr:   File "C:\Users\User\PycharmProjects\pythonProject1\venv\lib\site-packages\kivy\lib\gstplayer\__init__.py", line 26, in <module>
+[WARNING] stderr:     from kivy.lib.gstplayer._gstplayer import (
+[WARNING] stderr: ImportError: DLL load failed while importing _gstplayer: The specified module could not be found.
